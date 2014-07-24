@@ -21,6 +21,7 @@ exec > >(tee ${LOG})
 exec 2>&1
 
 TMP_DIR=`mktemp -d`
+cd ${TMP_DIR}
 
 # Determine which process to run
 PROC=$1
