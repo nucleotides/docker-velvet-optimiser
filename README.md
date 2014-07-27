@@ -1,5 +1,5 @@
-docker-velvet
-=============
+docker-velvet-optmiser
+======================
 
-Container to run velvet genome assembler.
+Container to run velvet-optmiser genome assembler.
 
