@@ -33,4 +33,4 @@ if [[ -z ${CMD} ]]; then
 fi
 eval ${CMD}
 
-cp $TMP_DIR/contigs.fa $ASSEMBLY
+cp $TMP_DIR/*/contigs.fa $ASSEMBLY
